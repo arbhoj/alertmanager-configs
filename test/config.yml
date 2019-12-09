@@ -11,7 +11,7 @@ receivers:
   - to: abhoj@d2iq.com
     from: abhojtest@gmail.com
     smarthost: smtp.gmail.com:587
-    auth_username: "abhojtest@gmail.com"
-    auth_identity: "abhojtest@gmail.com"
-    auth_password: "M@sterTest1"
+    auth_username: abhojtest@gmail.com
+    auth_identity: abhojtest@gmail.com
+    auth_password: M@sterTest1
     text: "Some Text"
