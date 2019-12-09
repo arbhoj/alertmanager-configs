@@ -9,8 +9,8 @@ receivers:
 - name: email_notification
   email_configs:
   - to: abhoj@d2iq.com
-    from: abhojtest@gmail.com:587
-    smarthost: smtp.gmail.com
+    from: abhojtest@gmail.com
+    smarthost: smtp.gmail.com:587
     auth_username: "abhojtest@gmail.com"
     auth_identity: "abhojtest@gmail.com"
     auth_password: "M@sterTest1"
